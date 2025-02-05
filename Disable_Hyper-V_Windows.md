@@ -1,6 +1,6 @@
 # Procédure de désactivation Hyper-V sur Windows
 
-**Objectifs** : Désactiver totalement l'utilisation de l'Hyper-V dans **Windows 11 Pro**. Cette procédure fait suite aux problèmes de virtualisation apparu suite au déploiement du build **24h2**. Elle permet aussi d'activer la virtualisation imbriqué.
+**Objectifs** : Désactiver totalement l'utilisation de l'**Hyper-V** dans **Windows 11 Pro**. Cette procédure fait suite aux problèmes de virtualisation apparu suite au déploiement du build **24h2**. Elle permet aussi d'activer la virtualisation imbriqué, utile pour les VM **GNS 3**. Cependant, elle empêchera l'utilisation de **WSL**, celle-ci se basant sur l'**Hyper-V** pour pouvoir fonctionner.
 ### Prérequis :
 - **OS** : Windows 10 
 - **Version** : Professionnel
@@ -42,7 +42,8 @@ Une fois ces étapes effectuées, **Windows** ne devrait plus utiliser l'**Hyper
 
 Afin de s'en assurer, lancez une VM depuis **VirtualBox**. 
 
-Dans la barre d'information dans coin inférieur droit, vous devriez voir le logo suivant : ![](./zz_image/Pasted_image_20250204105825.png)
+Dans la barre d'information dans coin inférieur droit, vous devriez voir le logo suivant. \
+![](./zz_image/Pasted_image_20250204105825.png)
 
 ---
 ## FAQ 
