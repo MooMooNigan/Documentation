@@ -51,5 +51,5 @@ Si vous voyez encore apparaitre une icone de tortue verte avec un V sur le dos, 
 - Assurez-vous que toutes les fonctionnalités Windows aient bien été désactivé. 
 - Vérifiez que vous êtes bien sur une version de Windows **Professionnel** et **24h2**.
 - Voir si la virtualisation est bien activée dans le BIOS. 
-- Vérifier que le **Démarrage Rapide** est bien **désactivé** dans les **Options d'alimention** et redémarrer le poste un fois désactivé.
+- Vérifier que le **Démarrage Rapide** est bien **Désactivé** dans les **Options d'alimention** et redémarrer le poste une fois désactivé.
 	![](./zz_image/Pasted_image_20250204111728.png)
